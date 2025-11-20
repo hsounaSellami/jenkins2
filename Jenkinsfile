@@ -11,7 +11,7 @@ pipeline {
 
         stage('GIT') {
             steps {
-                git branch: 'master',
+                git branch: 'main',
                     url: 'https://github.com/hsounaSellami/jenkins2.git'
             }
         }
